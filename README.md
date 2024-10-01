@@ -1,17 +1,16 @@
-# cyclone
-Cyclone Language Compiler
+# Cyclone Language
 
-This is an attempt to update the latest available cyclone code and fix it to build on more recents operating systems.
+This is an attempt to update cyclone for modern systems.
 
-The first step is build as 32 bits as clean as possible then attempt to update to be able to also build for 64 bits.
+Forked from https://github.com/mingodad/cyclone, who got it to build on Ubuntu 18.04.
 
-Actually it's already working on Ubuntu 18.04 see the build here https://github.com/mingodad/cyclone/actions/runs/4136702548#artifacts .
+## Docker Image
 
-One of the main reasons to do it is to preserve for historical purposes . 
+```shell
+# to build the image
+docker build -t cyclone .
+# enter container with cyclone available
+docker run --rm -it cyclone
+```
 
-There is also this other repositories that seems to try something similar:
-
-- https://github.com/moon-chilled/cyclonic
-- https://github.com/catb0t/cyclone
-- https://github.com/pippijn/cyclone
-- https://github.com/iphydf/cyclone
+A compressed archive of cyclone will be available at `/cyclone/cyclone-linux-i686.tgz`

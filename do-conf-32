@@ -1,5 +1,7 @@
+mkdir $(pwd)/build/cyclone-32
+
 ./configure \
-    --prefix=$HOME/local/cyclone-32 \
+    --prefix=$(pwd)/build/cyclone-32 \
     --build=i686-pc-linux-gnu \
     CC="gcc -m32 -g" \
     TARGET_CC="gcc -m32 -b i686-pc-linux-gnu" \
