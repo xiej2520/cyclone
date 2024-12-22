@@ -14,3 +14,4 @@ docker run --rm -it cyclone
 ```
 
 A compressed archive of cyclone will be available at `/cyclone/cyclone-linux-i686.tgz`
+The cyclone binary will be available at `/cyclone/build/cyclone-32/cyclone`

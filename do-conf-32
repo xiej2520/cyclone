@@ -1,4 +1,4 @@
-mkdir $(pwd)/build/cyclone-32
+mkdir -p $(pwd)/build/cyclone-32
 
 ./configure \
     --prefix=$(pwd)/build/cyclone-32 \

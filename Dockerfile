@@ -17,13 +17,13 @@ RUN sh do-conf-32 && \
 
 
 # Run tests for i686 binaries
-#RUN ./mk-it-32.sh test_bin
+RUN ./mk-it-32.sh test_bin
 
 # Build Cyclone bootstrap for i686
-#RUN ./mk-it-32.sh cyclone_src
+RUN ./mk-it-32.sh cyclone_src
 
 # Run tests for bootstrap
-#RUN ./mk-it-32.sh test_boot
+RUN ./mk-it-32.sh test_boot
 
 # Define the command to run when the container starts
 CMD ["bash"]
